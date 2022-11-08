@@ -1,0 +1,12 @@
+*{
+    
+}
+html{
+    background-color: rgba(34, 203, 54, 0.5);
+}
+
+h1{
+    font-weight: bold;
+    color: orange;
+    text-align: center; 
+}
