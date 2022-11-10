@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 *{
     
 }
@@ -9,4 +11,149 @@ h1{
     font-weight: bold;
     color: orange;
     text-align: center; 
+    border-bottom: 1px solid orange;
+    padding: 20px;
+    display: block;
+    min-width: 390px;
+    font-size: 40px;
+}
+#cliffs-of-moher{
+    width: 300px;
+    height: 365px;
+    border-radius: 20px;
+    border-width: 2px;
+    border: green;
+    border-style: solid;
+    justify-items: left;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#ireland-cartoon{
+    width: 300px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: orange;
+    border-style: solid;
+    justify-items: right;
+    display: inline-block;
+    margin-right: 25px;
+
+}
+body > main > aside{
+    display: block;
+    text-align: center;
+}
+p{
+    
+}
+ul.nav-list{
+    list-style: none;
+}
+ul.nav-list li{
+    display: inline-block;
+    padding: 0 0.5rem;
+    min-width: 12rem;
+    text-align: center;
+}
+ul.nav-list li:not(:last-child){
+    border-right: 1px solid orange;
+} 
+
+
+#nav-list{
+    display: inline;
+    list-style: none;
+    width: 100px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+li > a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: orange;
+    display: inline;
+    font-size: x-large;
+    line-height: 10px;
+    min-width: 500px;
+}
+
+#home-grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "menu menu menu"
+    "cliffs itinerary cartoon-map";
+}
+#menu{
+    grid-area: menu;
+}
+#header{
+    grid-area: header;
+}
+#cliffs{
+    grid-area: cliffs;
+}
+#cartoon-map{
+    grid-area: cartoon-map;
+}
+#itinerary{
+    grid-area: itinerary;
+}
+
+@media screen and(max-width: 1024px){
+    #home-grid{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "header cartoon-map"
+        "menu menu"
+        "itinerary cliffs";
+}
+#menu{
+    grid-area: menu;
+}
+#header{
+    grid-area: header;
+}
+#cliffs{
+    grid-area: cliffs;
+}
+#cartoon-map{
+    grid-area: cartoon-map;
+}
+#itinerary{
+grid-area: itinerary;
+}
+@media screen and (max-width: 450px){
+    #home-grid{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "cartoon-map"
+        "cliffs"
+        "menu"
+        "itinerary";
+}
+#menu{
+    grid-area: menu;
+}
+#header{
+    grid-area: header;
+}
+#cliffs{
+    grid-area: cliffs;
+}
+#cartoon-map{
+    grid-area: cartoon-map;
+}
+#itinerary{
+    grid-area: itinerary;
+}
+}
 }
