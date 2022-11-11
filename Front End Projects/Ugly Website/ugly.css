@@ -1,0 +1,180 @@
+html{
+    background-color: rgb(149, 2, 255);
+}
+@keyframes glowingbackground {
+    0% {
+      background-color: #8b0dc2;
+      box-shadow: 0 0 5px #8b0dc2;
+    }
+    50% {
+      background-color: #d000ff;
+      box-shadow: 0 0 20px #d000ff;
+    }
+    100% {
+      background-color: #57137d;
+      box-shadow: 0 0 5px #57137d;
+    }
+  }
+  #html{
+    animation: glowingbackground 1000ms infinite
+  }
+
+.button1 {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: font;
+    font-size: 40px;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing1 {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 10px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+    }
+  }
+  .button1 {
+    animation: glowing1 1300ms infinite;
+}
+
+.button3 {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: font;
+    font-size: 40px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing3 {
+    0% {
+      background-color: #a8a505;
+      box-shadow: 0 0 3px #8da805;
+    }
+    50% {
+      background-color: #f2ee11;
+      box-shadow: 0 0 10px #d0e819;
+    }
+    100% {
+      background-color: #c7cb4a;
+      box-shadow: 0 0 3px #cfee09;
+    }
+  }
+  .button3 {
+    animation: glowing3 1700ms infinite;
+}
+
+.button2 {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: font;
+    font-size: 40px;
+    padding: 3px 1px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing2 {
+    0% {
+      background-color: #d00998;
+      box-shadow: 0 0 3px #d00998;
+    }
+    50% {
+      background-color: #ff00d9;
+      box-shadow: 0 0 10px #ff00c3;
+    }
+    100% {
+      background-color: #9a1868;
+      box-shadow: 0 0 3px #9a1868;
+    }
+  }
+  .button2 {
+    animation: glowing2 800ms infinite;
+}
+
+.button4 {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: font;
+    font-size: 40px;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing {
+    0% {
+      background-color: #05a8a0;
+      box-shadow: 0 0 3px #05a8a0;
+    }
+    50% {
+      background-color: #00ffff;
+      box-shadow: 0 0 10px #00ffff;
+    }
+    100% {
+      background-color: #23b1b9;
+      box-shadow: 0 0 3px #23b1b9;
+    }
+  }
+  .button4 {
+    animation: glowing 400ms infinite;
+}
+
+.button5 {
+    background-color: #1c87c9;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: #eeeeee;
+    cursor: pointer;
+    display: inline-block;
+    font-family: font;
+    font-size: 40px;
+    padding: 1px 2px;
+    text-align: center;
+    text-decoration: none;
+  }
+  @keyframes glowing5 {
+    0% {
+      background-color: #d08e09;
+      box-shadow: 0 0 3px #d08e09;
+    }
+    50% {
+      background-color: #ffaa00;
+      box-shadow: 0 0 10px #ffaa00;
+    }
+    100% {
+      background-color: #e0810d;
+      box-shadow: 0 0 3px #e0810d;
+    }
+  }
+  .button5 {
+    animation: glowing5 400ms infinite;
+}

@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-*{
-    
-}
 html{
     background-color: rgba(34, 203, 54, 0.5);
 }
-
 h1{
     font-weight: bold;
     color: orange;
@@ -31,6 +27,7 @@ h1{
 
 #ireland-cartoon{
     width: 300px;
+    height: 365px;
     border-radius: 20px;
     border-width: 2px;
     border-color: orange;
@@ -45,7 +42,67 @@ body > main > aside{
     text-align: center;
 }
 p{
-    
+    font-size: medium;
+}
+#fly1{
+margin-top: -15px;
+}
+#fly1-1{
+    margin-top: 2px;
+}
+.fly1{
+    border-bottom: 1px solid white;
+}
+#leg1{
+    margin-top: -15px;
+}
+.leg1{
+    border-bottom: 1px solid white;
+}
+#leg2{
+    margin-top: -15px;
+}
+.leg2{
+    border-bottom: 1px solid white;
+}
+#leg3{
+    margin-top: -15px;
+}
+.leg3{
+    border-bottom: 1px solid white;
+}
+#leg4{
+    margin-top: -15px;
+}
+.leg4{
+    border-bottom: 1px solid white;
+}
+#leg5{
+    margin-top: -15px;
+}
+.leg5{
+    border-bottom: 1px solid white;
+}
+#leg6{
+    margin-top: -15px;
+}
+.leg6{
+    border-bottom: 1px solid white;
+}
+#leg7{
+    margin-top: -15px;
+}
+.leg7{
+    border-bottom: 1px solid white;
+}
+#leg8{
+    margin-top: -15px;
+}
+.leg8{
+    border-bottom: 1px solid white;
+}
+#fly2{
+    margin-top: -15px;
 }
 ul.nav-list{
     list-style: none;
@@ -76,6 +133,9 @@ li > a{
     font-size: x-large;
     line-height: 10px;
     min-width: 500px;
+}
+a:hover {
+    color: green;
 }
 
 #home-grid{
